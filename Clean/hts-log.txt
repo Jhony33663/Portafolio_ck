@@ -1,0 +1,36 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 10 Feb 2022 21:36:30 at http://cleantears.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://cleantears.com/ -O1 "C:\My Web Sites\Clean" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+21:36:31	Warning: 	Note: due to cleantears.com remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
+21:45:16	Warning: 	file not stored in cache due to bogus state (broken size, expected 40138029 got 2188658): cleantears.com/wp-content/uploads/2022/02/02.gif
+21:58:44	Warning: 	file not stored in cache due to bogus state (broken size, expected 3343127 got 1169580): cleantears.com/wp-content/uploads/2022/01/fondo.png
+21:59:33	Warning: 	file not stored in cache due to bogus state (broken size, expected 21370771 got 7687398): cleantears.com/wp-content/uploads/2022/02/Untitled-1.gif
+22:00:07	Error: 	"Not Found" (404) at link https://cleantears-9e1609.ingress-comporellon.easywp.com/wp-content/uploads/2022/02/01_artboard.png (from cleantears.com/)
+22:00:07	Error: 	"Not Found" (404) at link https://cleantears-9e1609.ingress-comporellon.easywp.com/wp-content/uploads/2022/02/02_artboard.png (from cleantears.com/)
+22:00:07	Error: 	"Not Found" (404) at link https://cleantears-9e1609.ingress-comporellon.easywp.com/wp-content/uploads/2022/02/03-1.png (from cleantears.com/)
+22:00:07	Error: 	"Not Found" (404) at link https://cleantears-9e1609.ingress-comporellon.easywp.com/wp-content/uploads/2022/02/04.png (from cleantears.com/)
+22:00:07	Error: 	"Not Found" (404) at link https://cleantears-9e1609.ingress-comporellon.easywp.com/wp-content/uploads/2022/02/05.png (from cleantears.com/)
+22:00:07	Warning: 	Retry after error -4 (Incorrect length (7687398 Bytes, 21370771 expected)) at link cleantears.com/wp-content/uploads/2022/02/Untitled-1.gif (from cleantears.com/)
+22:00:08	Warning: 	Retry after error -4 (Incorrect length (2188658 Bytes, 40138029 expected)) at link cleantears.com/wp-content/uploads/2022/02/02.gif (from cleantears.com/)
+22:00:08	Warning: 	Retry after error -4 (Incorrect length (662599 Bytes, 841281 expected)) at link cleantears.com/wp-content/uploads/2022/02/01.png (from cleantears.com/)
+22:00:38	Warning: 	Retry after error -4 (Incorrect length (1169580 Bytes, 3343127 expected)) at link cleantears.com/wp-content/uploads/2022/01/fondo.png (from cleantears.com/)
+22:02:32	Warning: 	Moved Permanently for cleantears.com/?p=172
+22:02:32	Warning: 	File has moved from cleantears.com/?p=172 to http://cleantears.com/test/
+22:03:27	Warning: 	file not stored in cache due to bogus state (broken size, expected 21370771 got 8847995): cleantears.com/wp-content/uploads/2022/02/Untitled-1.gif
+22:03:27	Warning: 	Retry after error -4 (Incorrect length (8847995 Bytes, 21370771 expected)) at link cleantears.com/wp-content/uploads/2022/02/Untitled-1.gif (from cleantears.com/)
+22:03:48	Warning: 	file not stored in cache due to bogus state (broken size, expected 3343127 got 2301141): cleantears.com/wp-content/uploads/2022/01/fondo.png
+22:04:08	Warning: 	Retry after error -4 (Incorrect length (3764889 Bytes, 40138029 expected)) at link cleantears.com/wp-content/uploads/2022/02/02.gif (from cleantears.com/)
+22:04:08	Warning: 	Retry after error -4 (Incorrect length (2301141 Bytes, 3343127 expected)) at link cleantears.com/wp-content/uploads/2022/01/fondo.png (from cleantears.com/)
+22:04:08	Error: 	"Not Found" (404) at link https://cleantears-9e1609.ingress-comporellon.easywp.com/wp-content/uploads/2022/01/fondo.png (from cleantears.com/wp-content/uploads/elementor/css/post-172.css?ver=1644127193)
+22:16:10	Warning: 	file not stored in cache due to bogus state (broken size, expected 21370771 got 17653312): cleantears.com/wp-content/uploads/2022/02/Untitled-1.gif
+22:16:10	Error: 	"Incorrect length (17653312 Bytes, 21370771 expected)" (-4) after 2 retries at link cleantears.com/wp-content/uploads/2022/02/Untitled-1.gif (from cleantears.com/)
+22:16:18	Warning: 	file not stored in cache due to bogus state (broken size, expected 40138029 got 12319086): cleantears.com/wp-content/uploads/2022/02/02.gif
+22:16:18	Error: 	"Incorrect length (12319086 Bytes, 40138029 expected)" (-4) after 2 retries at link cleantears.com/wp-content/uploads/2022/02/02.gif (from cleantears.com/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 39 minutes 48 seconds : 172 links scanned, 155 files written (31322661 bytes overall) [62351430 bytes received at 26110 bytes/sec], 6608164 bytes transferred using HTTP compression in 94 files, ratio 31%
+(8 errors, 17 warnings, 0 messages)
